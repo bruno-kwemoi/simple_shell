@@ -150,7 +150,7 @@ Repo:
 
 GitHub repository: simple_shell
 File: README.md, man_1_simple_shell, AUTHORS
- 
+
 1. Betty would be proud
 mandatory
 Write a beautiful code that passes the Betty checks
@@ -158,7 +158,7 @@ Write a beautiful code that passes the Betty checks
 Repo:
 
 GitHub repository: simple_shell
-  
+
 2. Simple shell 0.1
 mandatory
 Write a UNIX command line interpreter.
@@ -180,7 +180,7 @@ implement built-ins
 handle special characters : ", ', `, \, *, &, #
 be able to move the cursor
 handle commands with arguments
-julien@ubuntu:~/shell$ ./shell 
+julien@ubuntu:~/shell$ ./shell
 #cisfun$ ls
 ./shell: No such file or directory
 #cisfun$ /bin/ls
@@ -202,7 +202,7 @@ env-environ.c  exec    fork    mypid   ppid   printenv  promptc  shell     stat 
 Repo:
 
 GitHub repository: simple_shell
-  
+
 3. Simple shell 0.2
 mandatory
 Simple shell 0.1 +
@@ -211,7 +211,7 @@ Handle command lines with arguments
 Repo:
 
 GitHub repository: simple_shell
-  
+
 4. Simple shell 0.3
 mandatory
 Simple shell 0.2 +
@@ -225,7 +225,7 @@ env-environ.c  exec    fork    mypid   ppid   printenv  promptc  shell     shell
 :) ls
 barbie_j       env-main.c  exec.c  fork.c  pid.c  ppid.c    prompt   prompt.c  shell_0.3  stat    test_scripting.sh  wait.c
 env-environ.c  exec    fork    mypid   ppid   printenv  promptc  shell     shell.c    stat.c  wait
-:) ls -l /tmp 
+:) ls -l /tmp
 total 20
 -rw------- 1 julien julien    0 Dec  5 12:09 config-err-aAMZrR
 drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr
@@ -233,11 +233,11 @@ drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a4434973
 drwx------ 3 root   root   4096 Dec  5 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH
 -rw-rw-r-- 1 julien julien    0 Dec  5 12:09 unity_support_test.0
 :) ^C
-julien@ubuntu:~/shell$ 
+julien@ubuntu:~/shell$
 Repo:
 
 GitHub repository: simple_shell
-  
+
 5. Simple shell 0.4
 mandatory
 Simple shell 0.3 +
@@ -248,7 +248,7 @@ You don’t have to handle any argument to the built-in exit
 Repo:
 
 GitHub repository: simple_shell
-  
+
 6. Simple shell 1.0
 mandatory
 Simple shell 0.4 +
@@ -269,11 +269,11 @@ TERM=xterm-256color
 PATH=/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 DISPLAY=:0
 $ exit
-julien@ubuntu:~/shell$ 
+julien@ubuntu:~/shell$
 Repo:
 
 GitHub repository: simple_shell
-  
+
 7. What happens when you type `ls -l *.c` in the shell
 mandatory
 Write a blog post describing step by step what happens when you type ls -l *.c and hit Enter in a shell. Try to explain every step you know of, going in as much details as you can, give examples and draw diagrams when needed. You should merge your previous knowledge of the shell with the specifics of how it works under the hoods (including syscalls).
@@ -288,7 +288,6 @@ When done, please add all urls below (blog post, LinkedIn post, etc.)
 
 Add URLs here:
 
- 
 8. Test suite
 #advanced
 Contribute to a test suite for your shell.
@@ -313,8 +312,7 @@ Go teams!
 
 Add URLs here:
 
- 
-9. Simple shell 0.1.1
+ 9. Simple shell 0.1.1
 #advanced
 Simple shell 0.1 +
 
@@ -328,7 +326,7 @@ be able to move the cursor
 Repo:
 
 GitHub repository: simple_shell
-  
+
 10. Simple shell 0.2.1
 #advanced
 Simple shell 0.2 +
@@ -337,7 +335,7 @@ You are not allowed to use strtok
 Repo:
 
 GitHub repository: simple_shell
-  
+
 11. Simple shell 0.4.1
 #advanced
 Simple shell 0.4 +
@@ -348,11 +346,11 @@ julien@ubuntu:~/shell$ ./shell_0.4.1
 $ exit 98
 julien@ubuntu:~/shell$ echo $?
 98
-julien@ubuntu:~/shell$ 
+julien@ubuntu:~/shell$
 Repo:
 
 GitHub repository: simple_shell
-  
+
 12. Simple shell 0.4.2
 #advanced
 Simple shell 0.4 +
@@ -370,11 +368,11 @@ $ ^C
 $ ^C
 $ ^C
 $ exit
-julien@ubuntu:~/shell$ 
+julien@ubuntu:~/shell$
 Repo:
 
 GitHub repository: simple_shell
- 
+
 13. setenv, unsetenv
 #advanced
 Simple shell 1.0 +
@@ -392,7 +390,7 @@ Should print something on stderr on failure
 Repo:
 
 GitHub repository: simple_shell
-  
+
 14. cd
 #advanced
 Simple shell 1.0 +
@@ -409,7 +407,7 @@ man chdir, man getcwd
 Repo:
 
 GitHub repository: simple_shell
-  
+
 15. ;
 #advanced
 Simple shell 1.0 +
@@ -433,7 +431,7 @@ alex@~$
 Repo:
 
 GitHub repository: simple_shell
-  
+
 16. && and ||
 #advanced
 Simple shell 1.0 +
@@ -474,7 +472,7 @@ alex@~$
 Repo:
 
 GitHub repository: simple_shell
-  
+
 17. alias
 #advanced
 Simple shell 1.0 +
@@ -487,7 +485,7 @@ alias name='value' [...]: Defines an alias for each name whose value is given. I
 Repo:
 
 GitHub repository: simple_shell
-  
+
 18. Variables
 #advanced
 Simple shell 1.0 +
@@ -504,12 +502,12 @@ $ echo $$
 5104
 $ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-$ exit 
-julien@ubuntu:~/shell$ 
+$ exit
+julien@ubuntu:~/shell$
 Repo:
 
 GitHub repository: simple_shell
-  
+
 19. Comments
 #advanced
 Simple shell 1.0 +
@@ -519,11 +517,11 @@ julien@ubuntu:~/shell$ sh
 $ echo $$ # ls -la
 5114
 $ exit
-julien@ubuntu:~/shell$ 
+julien@ubuntu:~/shell$
 Repo:
 
 GitHub repository: simple_shell
-  
+
 20. help
 #advanced
 Simple shell 1.0 +
@@ -533,7 +531,7 @@ Usage: help [BUILTIN]
 Repo:
 
 GitHub repository: simple_shell
- 
+
 21. history
 #advanced
 Simple shell 1.0 +
@@ -545,7 +543,7 @@ When the shell starts, read the file .simple_shell_history in the directory $HOM
 Repo:
 
 GitHub repository: simple_shell
- 
+
 22. File as input
 #advanced
 Simple shell 1.0 +
@@ -558,5 +556,5 @@ In this mode, the shell should not print a prompt and should not read from stdin
 Repo:
 
 GitHub repository: simple_shell
-  
+
 Copyright © 2021 Holberton Inc, All rights reserved.
